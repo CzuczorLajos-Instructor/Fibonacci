@@ -17,7 +17,7 @@ internal class Program2
         int index = 0;
         while (index < COUNT)
         {
-            Console.WriteLine($"{index}. {value}");
+            Console.WriteLine($"{index,2}. {value,14:N0}");
             index++;
             StepUp(ref value, ref next);
         }

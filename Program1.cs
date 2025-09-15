@@ -3,7 +3,7 @@
 /**
  * Program to print the first some Finonacci numbers.
  * 
- * Baseline version using primitive types and while loop.
+ * Version #1: Use primitive types and while loop.
  */
 internal class Program1
 {
@@ -17,7 +17,7 @@ internal class Program1
         int index = 0;
         while (index < COUNT)
         {
-            Console.WriteLine($"{index}. {value}"); // interpolated string with no special formatting
+            Console.WriteLine($"{index,2}. {value,14:N0}"); // interpolated string with formatting
             index++;
             int sum = value + next;
             value = next;

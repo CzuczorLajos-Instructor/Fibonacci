@@ -17,7 +17,7 @@ internal class Program4
         Console.WriteLine($"Az első {COUNT} Fibonacci-szám:");
         for (var fu = FiboUnit4.Start; fu.Index < COUNT; fu = fu.StepUp()) // use object as loop variable
         {
-            Console.WriteLine(fu); // calls fu.ToString() implicitly
+            Console.WriteLine(fu); // call fu.ToString() implicitly
         }
     }
 }
