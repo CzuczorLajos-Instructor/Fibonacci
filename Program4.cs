@@ -13,7 +13,7 @@ internal class Program4
 
     static void Main()
     {
-        Console.WriteLine("4. programváltozat\n");
+        Console.WriteLine("\n4. programváltozat\n");
         Console.WriteLine($"Az első {COUNT} Fibonacci-szám:");
         for (var fu = FiboUnit4.Start; fu.Index < COUNT; fu = fu.StepUp()) // use object as loop variable
         {

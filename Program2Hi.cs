@@ -11,7 +11,7 @@ internal class Program2Hi
 
     static void Main()
     {
-        Console.WriteLine("2Hi programváltozat\n");
+        Console.WriteLine("\n2Hi programváltozat\n");
         Console.WriteLine($"Az első {COUNT} Fibonacci-szám:");
         int value = 0, next = 1;
         for (int index = 0; index < COUNT; index++, StepUp(ref value, ref next)) // here, index is local to the for loop

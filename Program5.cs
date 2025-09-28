@@ -12,11 +12,8 @@ internal class Program5
 
     static void Main()
     {
-        Console.WriteLine("5. programváltozat\n");
+        Console.WriteLine("\n5. programváltozat\n");
         Console.WriteLine($"Az első {COUNT} Fibonacci-szám:");
-        for (var fu = FiboUnit5.Start; fu.Index < COUNT; fu.StepUp())
-        {
-            Console.WriteLine(fu);
-        }
+        for (var fu = FiboUnit5.Start; fu.Index < COUNT; fu.StepUp()) { Console.WriteLine(fu); }
     }
 }

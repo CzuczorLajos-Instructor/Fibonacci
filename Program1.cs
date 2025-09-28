@@ -11,7 +11,7 @@ internal class Program1
 
     static void Main()
     {
-        Console.WriteLine("1. programváltozat\n");
+        Console.WriteLine("\n1. programváltozat\n");
         Console.WriteLine($"Az első {COUNT} Fibonacci-szám:");
         int value = 0, next = 1; // the very first two Fibonacci numbers
         int index = 0;

@@ -13,7 +13,7 @@ internal class Program3
 
     static void Main()
     {
-        Console.WriteLine("3. programváltozat\n");
+        Console.WriteLine("\n3. programváltozat\n");
         Console.WriteLine($"Az első {COUNT} Fibonacci-szám:");
         for (int index = 0; index < COUNT; index++, StepUp())
         {
